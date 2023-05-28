@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cher's Wardrobe</title>
+    <link
+      rel="icon"
+      href="./cher wardrobePics/circle logo.png"
+      type="image/icon type"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allan:wght@700&family=Bungee+Inline&family=Genos:wght@600&family=Germania+One&family=Jomhuria&family=Kdam+Thmor+Pro&family=Marhey:wght@500&family=Mouse+Memoirs&family=Nova+Round&family=Nova+Slim&family=Odibee+Sans&family=Press+Start+2P&family=Ranchers&family=Righteous&family=Roboto+Mono:wght@700&family=Rum+Raisin&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <video id="cherVideo" src="./Assets/Clip/hangersIntro.mov" autoplay muted></video>
+
+    <main id="app" style="display: none">
+
+      <header>
+        <h1>CHER'S WARDROBE</h1>
+        <button class="headerBtn">FALL FASHIONS</button>
+      </header>
+
+      <section id="wrapper">
+        <button class="browseBtn">BROWSE</button>
+
+        <div class="loadingCher" id="loadingCher">
+          <div class="dresspic" id="scan"></div>
+          <div class="dresspic" id="beginDress"></div>
+          <div class="dresspic" id="jacketOn"></div>
+          <div class="dresspic" id="jacketAndSkirtOn"></div>
+          <div class="dresspic" id="finishDress">
+            <div id="fullOutfit"></div>
+          </div>
+        </div>
+
+        <section id="images" class="opacity">
+          <div class="topPicture">
+            <img src="./Assets/Images/cherTop.png" alt="top" id="cherTop"/>
+          </div>
+
+          <div class="buttons" id="buttons1">
+            <button class="backBtn" id="topBackBtn">
+              <i class="fa fa-backward" aria-hidden="true"></i>
+            </button>
+            <button class="playBtn" id="topPlayBtn">
+              <i class="fa fa-play" aria-hidden="true"></i>
+            </button>
+            <button class="forwardBtn" id="topFwdBtn">
+              <i class="fa fa-forward" aria-hidden="true"></i>
+            </button>
+          </div>
+
+          <div class="bottomPicture">
+            <div id="mismatch" class="hide">
+              <h1>MIS-MATCH!</h1>
+            </div>
+            <img src="./Assets/Images/cherSkirt.png" alt="skirt" id="cherSkirt"/>
+          </div>
+
+          <div class="buttons" id="buttons2">
+            <button class="backBtn" id="skirtBackBtn">
+              <i class="fa fa-backward" aria-hidden="true"></i>
+            </button>
+            <button class="playBtn" id="skirtPlayBtn">
+              <i class="fa fa-play" aria-hidden="true"></i>
+            </button>
+            <button class="forwardBtn" id="skirtFwdBtn">
+              <i class="fa fa-forward" aria-hidden="true"></i>
+            </button>
+          </div>
+        </section>
+
+        <button class="dressMeBtn" id="dressMe">DRESS ME</button>
+      </section>
+
+      <footer>
+        <h1>SHOES</h1>
+        <h1>JEWELLERY</h1>
+        <h1>SCARVES</h1>
+        <h1>PANTYHOSE</h1>
+        <h1>UNDERWEAR</h1>
+        <h1>PANTS</h1>
+        <h1>SWEATERS</h1>
+        <button class="footerBtn">MORE</button>
+      </footer>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
