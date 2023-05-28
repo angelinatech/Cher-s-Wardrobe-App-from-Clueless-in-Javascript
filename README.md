@@ -31,8 +31,7 @@ Upon opening the link (cherswardrobe.netlify.app) the user will be confronted wi
 
 Screenshot of the finished and deployed application:
 
-![Screenshot](https://github.com/angelinatech/Cher-s-Wardrobe-App-from-Clueless-in-Javascript/assets/130837613/d166d9ff-74bc-4ad3-823b-255bea699d18)
-
+![Screenshot of App](https://github.com/angelinatech/Cher-s-Wardrobe-App-from-Clueless-in-Javascript/assets/130837613/211670cb-471d-4a1f-8c27-1290611a93a3)
 
 ## Credits
 
