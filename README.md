@@ -27,7 +27,7 @@ No installation necessary for this one, you can simply open the site on any brow
 
 Had to be a little creative with the functionality of the app as it's a little unclear from the movie clip! 
 
-Upon opening the link (cherswardrobe.netlify.app) the user will be confronted with a brief hangers video introduction, before accessing the scrolling wardrobe application. There is one viewport for the top and one for the bottom. The user may usethe forward, back and play buttons to make their selections. Once they have found a match, they can press the 'Dress Me' button to see the outfit modelled for them. The user may then refresh the page or select the 'Browse' buton to return to their outfit selections.
+Upon opening the link (cherswardrobe.netlify.app) the user will be confronted with a brief hangers video introduction, before accessing the scrolling wardrobe application. There is one viewport for the top and one for the bottom. The user may usethe forward, back and play buttons to make their selections. Once they have found a match, they can press the 'Dress Me' button to see the outfit modelled for them. The user may then refresh the page or select the 'Browse' button to return to their outfit selections.
 
 Screenshot of the finished and deployed application:
 
