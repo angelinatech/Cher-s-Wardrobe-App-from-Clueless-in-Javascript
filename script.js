@@ -204,7 +204,7 @@ function compareColours() {
 
 let moveButton = document.querySelector('.dressMeBtn');
 let items = document.querySelectorAll('.loadingCher .dresspic');
-let toHide = document.querySelector('#images');
+let toHide = document.querySelectorAll('.hideIt');
 
 
 let docElemStyle = document.documentElement.style;
@@ -213,8 +213,9 @@ let animationProp = typeof docElemStyle.animation === 'string' ?
 
 moveButton.onclick = function() {
   console.log(toHide);
-  toHide.classList.remove('opacity');
-  toHide.classList.add('noOpacity');
+  toHide.forEach(function(element) {
+    element.classList.add('noOpacity');
+  });
 
   setTimeout(function() {
     for (var i = 0; i < items.length; i++) {

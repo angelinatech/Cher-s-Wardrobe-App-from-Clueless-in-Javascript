@@ -1,15 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cher's Wardrobe</title>
-    <link
-      rel="icon"
-      href="./cher wardrobePics/circle logo.png"
-      type="image/icon type"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,21 +14,42 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="/style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- /* ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~* Outer Frame  *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~ */ -->
+    
     <video id="cherVideo" src="./Assets/Clip/hangersIntro.mov" autoplay muted></video>
+    <div class="computerBox">
+        <img class="background" src="./Assets/Images/b1.jpeg">
+        <img class="computer" src="./Assets/Images/computer.png">
+    </div>
 
-    <main id="app" style="display: none">
 
-      <header>
+
+<!-- /* ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~* Inner App *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~ */ -->
+
+
+<main id="app" style="display: none">
+
+    <!-- /* ~*~*~*~*~*~* Header *~*~*~*~*~*~*~ */ -->
+    <header>
         <h1>CHER'S WARDROBE</h1>
         <button class="headerBtn">FALL FASHIONS</button>
-      </header>
+        <h1 class="noOpacity">CHER'S WARDROBE</h1>
+    </header>
 
-      <section id="wrapper">
+
+
+    <!-- /* ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~* App *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~ */ -->
+
+
+
+
         <button class="browseBtn">BROWSE</button>
 
+        <!-- /* ~*~*~*~*~*~* Dressing Images *~*~*~*~*~*~*~ */ -->
         <div class="loadingCher" id="loadingCher">
           <div class="dresspic" id="scan"></div>
           <div class="dresspic" id="beginDress"></div>
@@ -45,12 +60,14 @@
           </div>
         </div>
 
-        <section id="images" class="opacity">
-          <div class="topPicture">
+
+
+            <!-- /* ~*~*~*~*~*~* Upper part *~*~*~*~*~*~*~ */ -->
+          <div class="topPicture hideIt">
             <img src="./Assets/Images/cherTop.png" alt="top" id="cherTop"/>
           </div>
 
-          <div class="buttons" id="buttons1">
+          <div class="hideIt" id="buttons1">
             <button class="backBtn" id="topBackBtn">
               <i class="fa fa-backward" aria-hidden="true"></i>
             </button>
@@ -62,14 +79,18 @@
             </button>
           </div>
 
-          <div class="bottomPicture">
+            <!-- /* ~*~*~*~*~*~* Lower Part *~*~*~*~*~*~*~ */ -->
+            <div class="bottomPicture hideIt">
+              <!-- /* ~*~*~*~*~*~* Error message *~*~*~*~*~*~*~ */ -->
             <div id="mismatch" class="hide">
               <h1>MIS-MATCH!</h1>
             </div>
+
+
             <img src="./Assets/Images/cherSkirt.png" alt="skirt" id="cherSkirt"/>
           </div>
 
-          <div class="buttons" id="buttons2">
+          <div class="hideIt" id="buttons2">
             <button class="backBtn" id="skirtBackBtn">
               <i class="fa fa-backward" aria-hidden="true"></i>
             </button>
@@ -80,12 +101,21 @@
               <i class="fa fa-forward" aria-hidden="true"></i>
             </button>
           </div>
-        </section>
 
-        <button class="dressMeBtn" id="dressMe">DRESS ME</button>
+
+
+        </section>
+        <button class="dressMeBtn">DRESS ME</button>
       </section>
 
-      <footer>
+
+
+
+
+
+
+    <!-- /* ~*~*~*~*~*~* Footer *~*~*~*~*~*~*~ */ -->
+    <footer>
         <h1>SHOES</h1>
         <h1>JEWELLERY</h1>
         <h1>SCARVES</h1>
@@ -95,8 +125,12 @@
         <h1>SWEATERS</h1>
         <button class="footerBtn">MORE</button>
       </footer>
-    </main>
 
-    <script src="./script.js"></script>
-  </body>
+
+
+
+
+</main>
+<script src="../script.js"></script> 
+</body>
 </html>
