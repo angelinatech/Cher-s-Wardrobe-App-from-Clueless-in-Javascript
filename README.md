@@ -29,19 +29,29 @@ Had to be a little creative with the functionality of the app as it's a little u
 
 Upon opening the link (cherswardrobe.netlify.app) the user will be confronted with a brief hangers video introduction...
 
+![introApp](https://github.com/angelinatech/Cher-s-Wardrobe-App-from-Clueless-in-Javascript/assets/130837613/001edfe6-d282-4c7e-93e3-b7b57527ba96)
 
 
  before accessing the scrolling wardrobe application...
 
+![scrolling](https://github.com/angelinatech/Cher-s-Wardrobe-App-from-Clueless-in-Javascript/assets/130837613/22e78304-d9cf-43aa-8658-2e093cbc1d41)
 
 
 There is one scroll for the top and one for the bottom. The user may use the forward, back and play buttons to make their selections. Once they have found a match, they can press the 'Dress Me' button to see the outfit modelled for them...
 
+![App](https://github.com/angelinatech/Cher-s-Wardrobe-App-from-Clueless-in-Javascript/assets/130837613/d3c0924f-a9ee-4b19-887c-1c528dd97e76)
 
 
 The user may then refresh the page or select the 'Browse' button to return to their outfit selections.
 
-For mobile screens I just arranged it however really, I'm sure Cher would be okay with it lol...
+Et voila! Pretty similar anyways 😁
+
+![comparison ](https://github.com/angelinatech/Cher-s-Wardrobe-App-from-Clueless-in-Javascript/assets/130837613/519e9499-f6e8-40d0-a378-26b71aff7c9a)
+
+
+For mobile screens I just arranged it however really, I'm sure Cher would be okay with it...
+
+![mobileVersion](https://github.com/angelinatech/Cher-s-Wardrobe-App-from-Clueless-in-Javascript/assets/130837613/643ea52a-f583-451b-b76c-7351de442ef0)
 
 
 ## Credits
